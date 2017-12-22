@@ -1,0 +1,6 @@
+#ifndef OBJETOS_H
+#define OBJETOS_H#include <list>#include <vector>const float XTAM = 640, YTAM = 480;
+// Classes/* Classe Objeto (Classe Base ) ------------------------ */class Objeto{   protected:   float x, y, a, vx, vy;   public:   Objeto(float _x, float _y);   void mueve();   void rota(double da);   void acelera();   void frena();   bool fuera() const;};/* ---------- Classe ASTEROIDE ------------------------- */class Asteroide : public Objeto {   float tam;   std::vector<float> X, Y;   void puntos();public:   Asteroide();   Asteroide(float _x, float _y, float _tam, float _vx, float vy);   void pinta() const;   bool dentro(float x, float y) const;   void explota(std::list<Asteroide*>& A) const;};/* ---------- Classe MISIL ------------------------------ */
+class Misil : public Objeto{public:   Misil(float _x, float _y, float _a);   void pinta() const;   void mueve();   bool choca(Asteroide* a) const;};/* ---------- Classe NAVE ------------------------------ */class Nave : public Objeto {   void vertices(float& x1, float& y,                 float& x2, float& y2,                 float& x3, float& y3) const;   public:   Nave(float _x, float _y): Objeto(_x,_y){};   void pinta() const;   bool choca(Asteroide* a) const;   Misil *dispara() const;};
+
+#endif // OBJETOS_H

@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1399739576 source:c:\cpp\travauxcpp3\asteroids\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1320924340 c:\cpp\travauxcpp3\asteroids\miniwin.h
+	<iostream>
+
+1399745483 source:c:\cpp\travauxcpp3\asteroids\main.cpp
+	"miniwin.h"
+
+1399717740 source:c:\cpp\travauxcpp3\asteroids\objetos.cpp
+	"util.h"
+
+1399571034 c:\cpp\travauxcpp3\asteroids\util.h
+
+1399643124 source:c:\cpp\travauxcpp3\asteroids\util.cpp
+	"util.h"
+
