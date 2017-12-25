@@ -10,7 +10,7 @@ See the video in Pauek channel for fun here [Youtube](https://www.youtube.com/wa
 
 Want to learn and have fun 
 
-![Alt Screenshot](./capture.png?raw=true "F11")
+![Alt Screenshot](./capture.png?raw=true "MiniAsteroids")
 
 ### Installing 
 
