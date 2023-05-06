@@ -34,3 +34,38 @@
 1399643124 source:c:\cpp\travauxcpp3\asteroids\util.cpp
 	"util.h"
 
+1519642631 source:c:\codes\cpp\miniasteroids\main.cpp
+	"miniwin.h"
+
+1519642631 c:\codes\cpp\miniasteroids\miniwin.h
+	<iostream>
+
+1519642631 source:c:\codes\cpp\miniasteroids\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1519642631 source:c:\codes\cpp\miniasteroids\objetos.cpp
+	"util.h"
+
+1519642631 c:\codes\cpp\miniasteroids\util.h
+
+1519642631 source:c:\codes\cpp\miniasteroids\util.cpp
+	"util.h"
+
