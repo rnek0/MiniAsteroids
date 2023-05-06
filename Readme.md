@@ -4,17 +4,17 @@ An asteroids game. Learning C ++ with [Pau Fernandez](https://github.com/pauek) 
 
 ## Getting Started 
 
-See the video in Pauek channel for fun here [Youtube](https://www.youtube.com/watch?v=HCWghQtxlos&list=PLDD6B727E5B6B5E33)
+See the video on [Pauek youtube channel](https://www.youtube.com/watch?v=HCWghQtxlos&list=PLDD6B727E5B6B5E33) to have fun. 
 
-### Prerequisites
+## Prerequisites
 
 Want to learn and have fun 
 
 ![Alt Screenshot](./capture.png?raw=true "MiniAsteroids")
 
-### Installing 
+## Install 
 
-No install
+No install, make a git clone, enter on folder & open it with Code::Blocks, get your hands in there, code, compile and do it again until you like it.
 
 ## Deployment 
 
@@ -24,7 +24,7 @@ Only compile & have fun !
 
 ## Author 
 
-Tony Simoes
+rnek0
 
 ## License 
 
